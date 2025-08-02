@@ -1,29 +1,21 @@
 void main() {
-  // Compound Assignment Operators
+  // Variables and Data Types Basics
 
-  // int a = 10;
-  // print(a); // 10
+  // String variable
+  String firtName = "John";
 
-  /*
-  a++;
-  print(a); // 11
+  // Integer variable
+  int age = 23;
 
-  // addition
-  a += 5; //(a = a + 5)
-  print(a); // 16
+  // Double variable
+  double height = 5.9;
 
-  // subtraction
-  a -= 3; //(a = a - 3)
-  print(a); // 7
+  // Boolean variable
+  bool isStudent = true;
 
-  // multiplication
-  a *= 2; //(a = a * 2)
-  print(a); // 20
-  */
-
-  // division
-  double a = 20;
-  print(a); // 20
-  a /= 4; //(a = a / 4)
-  print(a); // 5
+  // Printing variables
+  print("First Name: $firtName");
+  print("Age: $age");
+  print("Height: $height");
+  print("Is Student: $isStudent");
 }
