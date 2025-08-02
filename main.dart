@@ -1,20 +1,29 @@
 void main() {
-  // Increment And Decrement Operators
-  // Prefix increment and decrement operators
-  int a = 10;
-  print(a); // 10
+  // Compound Assignment Operators
 
-  print(++a); // 11
+  // int a = 10;
+  // print(a); // 10
 
-  print(--a); // 10
+  /*
+  a++;
+  print(a); // 11
 
-  print("====================");
+  // addition
+  a += 5; //(a = a + 5)
+  print(a); // 16
 
-  // Postfix increment and decrement operators
-  int b = 20;
-  print(b); // 20
+  // subtraction
+  a -= 3; //(a = a - 3)
+  print(a); // 7
 
-  print(b++); // 20 (prints before incrementing)
+  // multiplication
+  a *= 2; //(a = a * 2)
+  print(a); // 20
+  */
 
-  print(b); // 21
+  // division
+  double a = 20;
+  print(a); // 20
+  a /= 4; //(a = a / 4)
+  print(a); // 5
 }
