@@ -1,21 +1,33 @@
 void main() {
-  // Challenge 1 solution data types
+  // Type conversions in dart
 
-  int x = 5;
+  String age = "25";
+  print(age.runtimeType);
 
-  // increment
-  x += 2;
-  print(x);
+  int ageIne = int.parse(age);
+  print(ageIne.runtimeType);
 
-  // decrement
-  x -= 2;
-  print(x);
+  String income = "50000.50";
+  print(double.parse(income).runtimeType);
 
-  // multiply
-  x *= 2;
-  print(x);
+  print("=============");
 
-  // divide
-  x ~/= 2;
-  print(x);
+  int number = 10;
+  print("This number data type is : ${number.toString().runtimeType}");
+
+  print("==============");
+
+  double pi = 3.14;
+  print("This data type : ${pi.toString().runtimeType}");
+
+  print("==============");
+
+  bool isTrue = true;
+  print("this bool data type is : ${isTrue.toString().runtimeType}");
+
+  print("==============");
+
+  // Null
+  Null nullValue = null;
+  print("This null data type is : ${nullValue.runtimeType}");
 }
